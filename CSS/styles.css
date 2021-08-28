@@ -63,7 +63,7 @@ img{
     font-size: 18px;
     outline: none;
     resize: none;
-    columns: 40;
+    height:150px;
 }
 .intro-name{
     font-size: 35px;
@@ -165,6 +165,20 @@ footer>div{
     margin-right: auto;
     color: white;
     text-shadow: 2px 1px 5px black;
+
+.copy{
+    display:block;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.copy-para{
+    color:white;
+    margin-top:15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
 }
 
 @media only screen and (max-width: 500px) {
